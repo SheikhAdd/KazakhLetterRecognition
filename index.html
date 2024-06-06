@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kazakh Letter Recognition App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Handwritten Kazakh Letter Recognition</h1>
+        <p>Draw a letter below.</p>
+    </header>
+    <main>
+        <section class="canvas-wrapper">
+            <canvas id="drawing-canvas" width="500" height="500"></canvas>
+        </section>
+        <section class="buttons">
+            <button id="predict-button">Predict</button>
+            <button id="clear-button">Clear</button>
+        </section>
+        <section class="prediction">
+            <div id="prediction-result">Prediction:</div>
+            <div id="confidence-score">Confidence:</div>
+        </section>        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
